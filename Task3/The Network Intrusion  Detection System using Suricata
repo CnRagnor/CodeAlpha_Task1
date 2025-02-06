@@ -1,0 +1,60 @@
+# The Network Intrusion  Detection System using Suricata
+
+# Network Intrusion Detection System (NIDS)
+
+## Introduction
+In an increasingly digital world, network security has become paramount for organizations seeking to protect sensitive data and maintain system integrity. This project aimed to develop a robust Network Intrusion Detection System (NIDS) utilizing Suricata on Kali Linux. The system was designed to monitor network traffic, detect suspicious activities, and provide alerts to users. Visualizations were employed to analyze and understand detected attacks, enabling better security posture and response strategies. The project successfully achieved its objectives, providing a comprehensive solution for network intrusion detection and analysis.
+
+## Project Objectives
+The primary objectives of the project were as follows:
+1. **Develop NIDS:** Create a system capable of monitoring network traffic and detecting intrusions effectively.
+2. **Configure Rules and Alerts:** Set up rules that identify and respond to suspicious activities in real-time.
+3. **Visualize Detected Attacks:** Utilize visualization tools to analyze and understand detected threats, allowing for proactive security measures.
+
+## Project Scope
+The scope of this project included the following:
+1. **Installation and Configuration of Suricata:** Setting up Suricata on Kali Linux to monitor network traffic.
+2. **Rule Creation and Implementation:** Developing custom rules to detect specific network activities.
+3. **Monitoring and Alerts Setup:** Configuring alerts for suspicious activities and monitoring network traffic.
+4. **Visualization and Analysis:** Using Wireshark and Elastic Stack to visualize detected attacks and analyze data.
+5. **Documentation:** Compiling a comprehensive project report detailing the entire process, including configurations, rules, challenges, and solutions.
+
+## Key Deliverables
+The following deliverables were produced during the project:
+1. **Suricata Installation and Configuration:** A fully functional installation of Suricata on Kali Linux, configured to monitor the specified network interface.
+2. **Custom Rules:** A set of custom rules created and implemented for detecting various types of network intrusions.
+3. **Alerts and Monitoring:** A configured alert system that effectively notifies users of suspicious network activities.
+4. **Visualization:** Utilization of Wireshark and Elastic Stack to create visual representations of detected attacks for further analysis.
+5. **Project Report:** Detailed documentation of the entire process, including installation steps, rules created, challenges faced, and solutions implemented.
+
+## Project Phases
+
+### 1. Research and Planning
+- Conducted thorough research on Suricata and Kali Linux.
+- Defined project requirements and planned the project structure.
+
+# Configuration: The Suricata configuration file was edited to configure the network interface for monitoring.
+
+# Tools Used
+- Suricata: Open-source network threat detection engine.
+- Wireshark: Network protocol analyzer used for network troubleshooting, analysis, and development.
+- Elastic Stack: Suite of tools for searching, analyzing, and visualizing data in real-time.
+
+# Future Recommendations
+- Regular Updates: Ensure Suricata and all other tools are regularly updated to benefit from the latest security patches and features.
+- Custom Rules Enhancement: Continuously develop and refine custom rules based on emerging threats and organizational needs.
+- Advanced Visualization: Explore advanced visualization techniques to gain deeper insights into network traffic and potential threats.
+
+# Conclusion
+- The Secure Code Review project has successfully identified several security vulnerabilities within the Python Flask application. 
+- By employing both automated and manual review techniques, we have provided a comprehensive assessment of the application's security posture and actionable recommendations to improve its security.
+
+## Installation
+To set up the project on your local machine, follow these steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/CnRagnor/Project_CodeAlpha/new/main
+
+
+# License
+This project is licensed under the MIT License. See the LICENSE file for details.
