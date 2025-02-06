@@ -32,5 +32,5 @@ The system uses machine learning models to analyze email content and identify po
 To get started with the project, follow these steps:
 1. Clone the repository:
    ```bash
-  git clone [https://github.com/yourusername/phishing-detection.git](https://github.com/CnRagnor/Project_CodeAlpha/new/main/Task1)
+  git clone ([https://github.com/CnRagnor/Project_CodeAlpha/new/main/Task1](https://github.com/CnRagnor/Project_CodeAlpha/tree/main/Task1)
 
