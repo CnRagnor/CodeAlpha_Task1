@@ -1,1 +1,57 @@
+# Secure Code Review
 
+## Overview
+In today's digital landscape, the security of web applications is paramount. With an increase in data breaches and cyberattacks, it is crucial for developers to adopt secure coding practices to protect sensitive information and maintain user trust. This project focuses on conducting a secure code review for a web application built using Python and the Flask framework. The primary purpose of this project is to identify security vulnerabilities and provide actionable recommendations to improve the security of the application.
+
+## Introduction
+Python is a popular programming language known for its simplicity and versatility, making it an ideal choice for web development. Flask, a lightweight web framework for Python, allows developers to build web applications quickly and efficiently. However, like any technology, Flask applications can be susceptible to security vulnerabilities if not developed with best practices in mind. This report details the methodologies employed during the secure code review process, the vulnerabilities identified, and recommendations for secure coding practices. By integrating automated tools and manual review techniques, the project aims to provide a comprehensive assessment of the application's security posture.
+
+## Code Review Process for a Python Flask Application
+The code review process for a Python Flask application involves multiple stages, combining automated tools and manual review techniques to ensure a thorough examination of the codebase.
+
+### Automated Code Review
+
+#### Static Code Analysis with Bandit
+Bandit is a security-focused static analysis tool that scans Python code for security vulnerabilities. It identifies issues such as hardcoded passwords, insecure use of functions, and potential injection vulnerabilities. The tool generates a report highlighting the vulnerabilities found, categorized by severity.
+
+#### Code Quality Checks with PyLint
+PyLint is a static code analysis tool that checks code quality issues, such as coding standards violations, potential bugs, and maintainability concerns. While its primary focus is not on security, it can help identify areas of the code that may be prone to vulnerabilities.
+
+### Manual Code Review
+In addition to automated tools, manual code reviews are essential for identifying vulnerabilities that may not be detected by static analysis. The manual review process includes:
+
+- **Reviewing Code Logic:** Assessing the logic of the application to identify potential flaws or insecure coding practices.
+- **Checking Input Validation:** Ensuring that all user inputs are properly validated and sanitized to prevent injection attacks.
+- **Analyzing Error Handling:** Reviewing how the application handles errors to avoid exposing sensitive information.
+
+### Documentation and Reporting
+After completing the code review, a comprehensive report is generated, summarizing the findings and providing recommendations for remediation.
+
+## Tools
+
+### Bandit
+Bandit is an open-source security tool used to detect security vulnerabilities in Python projects. It analyzes potential security risks in your Python code and alerts you against these vulnerabilities.
+
+**What It Looks For:**
+1. Hardcoded passwords or other sensitive information.
+2. Usages that may pose SQL or OS injection risks.
+3. Known security vulnerabilities in external libraries used by your project.
+4. Misuse of Python functions or modules that can introduce security risks.
+
+### PyLint
+PyLint serves as a static analysis tool designed to evaluate the quality and compliance of code written in the Python programming language.
+
+**Purpose and Functions:**
+1. **Code Quality Assessment:** Evaluates the quality of Python code and checks its adherence to generally accepted Python coding standards.
+2. **Error and Warning Detection:** Identifies potential error points and coding mistakes, helping to prevent runtime errors.
+3. **Style Guide Compliance:** Performs compliance checks with style guides, including PEP 8 and other guidelines defined by the Python community.
+
+**What It Checks:**
+1. Compliance with relevant style guides.
+2. Complexity and clarity of functions or classes.
+3. Error situations like undefined variables or functions.
+4. Extent of code testing and verifies test coverage.
+
+# Clone the repository:
+   ```bash
+   git clone https://github.com/CnRagnor/Project_CodeAlpha/edit/main/Task2/Secure_Code_Review
